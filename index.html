@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="luhn.js" defer></script>
+  </head>
+
+  <body>
+    <div id="site-container">
+      <div></div>
+      <div id="site-content">
+        <h1>Luhn Algorithm</h1>
+        <p>
+          The
+          <strong>​Luhn algorithm​</strong>
+          is a simple checksum formula used to validate a variety of
+          identification numbers, such as credit card numbers and Canadian
+          Social Insurance Numbers.
+        </p>
+        <br />
+        <p class="bold">
+          To check if a number is a valid Luhn Algorithm number, please enter
+          the number in the input field below
+        </p>
+        <form action="">
+          <label for="number">Number</label>
+          <br />
+          <input
+            type="text"
+            name="number"
+            id="number"
+            placeholder="Enter number here"
+          />
+          <br />
+          <div id="buttons">
+            <button class="button green" id="check-luhn">Check</button>
+            <button class="button red" type="reset" id="reset-luhn">
+              Reset
+            </button>
+          </div>
+        </form>
+        <div id="output">
+          <h1>Output</h1>
+          <div id="js-output"></div>
+        </div>
+      </div>
+      <div></div>
+    </div>
+  </body>
+</html>
