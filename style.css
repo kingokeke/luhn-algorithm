@@ -1,0 +1,96 @@
+:root {
+  --red: #b80808;
+  --green: #03940b;
+  --transparent-white: rgba(255, 255, 255, 0.85);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#site-container {
+  display: grid;
+  grid-template-columns: auto 500px auto;
+  text-align: center;
+  background-image: url(https://nofile.io/g/Vw9VnKoTbTQA9C1XsUfzPVLD5R2fhiyC8zmMSjr7tyVkBNyz2uZmnERNzfFIQAZB/2mountain-1920x1200-minimal-half-moon-hd-4792.jpg/);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#site-content {
+  background-color: var(--transparent-white);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+#site-content h1 {
+  text-transform: uppercase;
+}
+#number {
+  border-radius: 10px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ccc;
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align: center;
+}
+
+#output {
+  min-height: 200px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 50px;
+  padding-top: 0px;
+  background-color: white;
+}
+
+#output h1 {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+#output p {
+  margin-top: 50px;
+  font-size: 1.25em;
+}
+.button {
+  padding: 15px 40px;
+  margin: 30px 5px;
+  border-radius: 5px;
+  border: 3px solid #000;
+  background: unset;
+  cursor: unset;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 900;
+  transition: all 0.2s ease-in-out;
+}
+
+.green:hover {
+  background-color: var(--green);
+  color: white;
+  border-color: var(--green);
+}
+
+.red:hover {
+  background-color: var(--red);
+  color: white;
+  border-color: var(--red);
+}
+
+label[for='number'] {
+  text-transform: uppercase;
+  font-size: 1.25em;
+  display: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.js-output.error {
+  color: red;
+}
