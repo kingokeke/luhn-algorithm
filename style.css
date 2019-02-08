@@ -14,6 +14,7 @@ body {
   grid-template-columns: auto 500px auto;
   text-align: center;
   background-image: url(https://i.postimg.cc/vmqCHdV8/2mountain-1920x1200-minimal-half-moon-hd-4792.jpg);
+  background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
 }
