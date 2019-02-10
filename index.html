@@ -11,44 +11,51 @@
 
   <body>
     <div id="site-container">
-      <div></div>
+      <div class="spacer"></div>
       <div id="site-content">
-        <h1>Luhn Algorithm</h1>
-        <p>
-          The
-          <strong>​Luhn algorithm​</strong>
-          is a simple checksum formula used to validate a variety of
-          identification numbers, such as credit card numbers and Canadian
-          Social Insurance Numbers.
-        </p>
-        <br />
-        <p class="bold">
-          To check if a number is a valid Luhn Algorithm number, please enter
-          the number in the input field below
-        </p>
-        <form action="">
-          <label for="number">Number</label>
+        <header>
+          <h1>Luhn Algorithm</h1>
+        </header>
+        <main>
+          <p>
+            The
+            <strong>​Luhn algorithm​</strong>
+            is a simple checksum formula used to validate a variety of identification numbers, such as credit card numbers and Canadian Social Insurance
+            Numbers.
+          </p>
           <br />
-          <input
-            type="text"
-            name="number"
-            id="number"
-            placeholder="Enter number here"
-          />
-          <br />
-          <div id="buttons">
-            <button class="button green" id="check-luhn">Check</button>
-            <button class="button red" type="reset" id="reset-luhn">
-              Reset
-            </button>
+          <p class="bold">
+            To check if a number is a valid Luhn Algorithm number, please enter the number in the input field below
+          </p>
+          <form action="">
+            <label for="number">Number</label>
+            <br />
+            <input type="text" name="number" id="number" placeholder="Enter number here" />
+            <br />
+            <div id="buttons">
+              <button class="button green" id="check-luhn">Check</button>
+              <button class="button red" type="reset" id="reset-luhn">
+                Reset
+              </button>
+            </div>
+          </form>
+          <div id="output">
+            <h1>Output</h1>
+            <div id="js-output"></div>
           </div>
-        </form>
-        <div id="output">
-          <h1>Output</h1>
-          <div id="js-output"></div>
-        </div>
+        </main>
+        <footer>
+          <p>
+            Copyright &copy;
+            <span class="current-year">2010</span>
+            <a href="https://www.github.com/kingokeke" target="_blank">
+              Kingsley Okeke.
+            </a>
+            All rights reserved.
+          </p>
+        </footer>
       </div>
-      <div></div>
+      <div class="spacer"></div>
     </div>
   </body>
 </html>
